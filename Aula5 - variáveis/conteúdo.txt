@@ -1,0 +1,15 @@
+AS VARIÁVEIS EM JS PODEM SER CATEGORIZADAS EM:
+  - Number (infinity & Not a Number);
+  - String;
+  - Boolean;
+  - Null;
+  - Undefined;
+  - Object (Array);
+  - Function. 
+
+typeof('nome da variável'): serve para indicar o tipo
+da variável passado como parâmetro;
+
+Graças a tipagem dinâmica, uma mesma variável pode ser atribuída
+com um tipo diferente. Por exemplo var nome = 'Google'; nome = 55
+é possível.
