@@ -23,8 +23,6 @@ window.alert(n1 != n2);
 window.alert(5 == '5'); //igualdade simples (de valor) = true;
 window.alert(5 === '5'); //igualdade restrita = false.
 
-/* ========================================================
-   OPERADORES LÓGICOS
-   - ! (negação);
-   - && (and);
-   - || (or). */
+
+
+   
