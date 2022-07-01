@@ -31,3 +31,13 @@ if(salario > 1500 && sexo != 'm'){
 } else{
    window.alert('você é um homem e ganha um salário inferior a R$ 1500');
 }
+
+/* ========================================================
+   OPERADOR TERNÁRIO
+   - teste ? true : false; 
+   Ex.: media >= 7 ? 'aprovado' : 'reprovado'  
+*/
+
+var idade = window.prompt('Digite uma idade:');
+var isMajor = idade >= 18? 'MAIOR DE IDADE' : 'MENOR DE IDADE';
+window.alert(isMajor);
