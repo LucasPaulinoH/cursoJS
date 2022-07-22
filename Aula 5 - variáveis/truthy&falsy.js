@@ -9,6 +9,8 @@ const a = null;
 
 const b = undefined;
 
+/* além destes, os tipos NaN também são falsy.*/
+
 console.log(`${!!x}, ${!!y}, ${!!a}, ${!!b}`); /* os dois booleanos
 de negação (!!) testam o valor booleano da variável, enquanto o booleano
 (!) representa uma negação simples */
@@ -19,4 +21,4 @@ de negação (!!) testam o valor booleano da variável, enquanto o booleano
 const list = [];
 const obj = {}
 
-console.log(`${!!list}, ${!!obj}, ${!!a}, ${!!b}`);
+console.log(`${!!list}, ${!!obj}`);
